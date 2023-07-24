@@ -1,6 +1,6 @@
-valorPedido = int(input())
+valor_pedido = int(input())
 
-if(valorPedido >= 50):
+if(valor_pedido >= 50):
   print("Parabens, você ganhou uma sobremesa gratis!")
 else:
     print("Que pena, você nao ganhou nenhum brinde especial.")

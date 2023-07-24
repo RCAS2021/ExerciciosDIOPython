@@ -1,6 +1,6 @@
 import sys
 
-nomeRestaurante = input()
-tempoEstimadoEntrega = int(input())
-print(f"O restaurante {nomeRestaurante} entrega em {tempoEstimadoEntrega} minutos.")
+nome_restaurante = input()
+tempo_estimado_entrega = int(input())
+print(f"O restaurante {nome_restaurante} entrega em {tempo_estimado_entrega} minutos.")
 

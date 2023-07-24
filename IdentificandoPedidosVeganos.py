@@ -1,11 +1,11 @@
-numPedidos = int(input())
+num_pedidos = int(input())
 
-for i in range(1, numPedidos + 1):
+for i in range(1, num_pedidos + 1):
     prato = input()
     calorias = int(input())
-    ehVegano = input()
-    if (ehVegano == "s"):
-        ehVeganoBool = "Vegano"
+    eh_vegano = input()
+    if (eh_vegano == "s"):
+        eh_vegano_bool = "Vegano"
     else:
-        ehVeganoBool = "Nao-vegano"
-    print(f"Pedido {i}: {prato} ({ehVeganoBool}) - {calorias} calorias")
+        eh_vegano_bool = "Nao-vegano"
+    print(f"Pedido {i}: {prato} ({eh_vegano_bool}) - {calorias} calorias")
