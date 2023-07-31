@@ -5,7 +5,7 @@ quantidade_bebida = int(input())
 valor_pago = float(input())
 
 
-total_hamburgueres =(valor_hamburguer * quantidade_hamburguer)
+total_hamburgueres = (valor_hamburguer * quantidade_hamburguer)
 total_bebidas = (valor_bebida * quantidade_bebida)
 preco_final = total_hamburgueres + total_bebidas
 troco = valor_pago - preco_final
