@@ -1,5 +1,5 @@
 while True: #conjunto não-ordenado de pares de chave:valor, onde as chaves são únicas. chave é um objeto imutável(tuplas), valor pode ser imutável ou mutável e qualquer tipo
-    selecionar = int(input("1- Exemplo 2- Indexação 3- Dicionário aninhado 4- Métodos\n"))
+    selecionar = int(input("1- Exemplo 2- Acesso 3- Dicionário aninhado 4- Métodos\n"))
 
     if selecionar == 0:
         break
