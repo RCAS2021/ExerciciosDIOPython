@@ -1,6 +1,9 @@
 while True:
     selecionar = int(input("1- Append 2- Clear 3- Copy 4- Count 5- Extend 6- index 7- Pop 8- Remove 9- Reverse 10- Sort 11- Sorted\n"))
 
+    if selecionar == 0:
+        break
+    
     if selecionar == 1: #append -> coloca no último índice da lista
         lista = []
         lista.append(1)

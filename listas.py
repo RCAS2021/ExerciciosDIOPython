@@ -1,6 +1,10 @@
 while True:
     frutas = ["laranja", "maçã", "uva", "pera"] #forma comum de lista
-    selecionar = int(input("1- Listas 2- Matriz 3- Fatiamento de listas 4- For 5- Enumerate 6- Filtrar 7- Compreensão\n"))
+    selecionar = int(input("1- Listas 2- Matriz 3- Fatiamento de listas 4- For 5- Enumerate 6- Filtrar 7- Compreensão 8- Métodos\n"))
+    
+    if selecionar == 0:
+        break
+
     if selecionar == 1:
         print(frutas)
         print(frutas[0]) #printa no índice 0
@@ -40,13 +44,14 @@ while True:
         print(lista[0:3:2]) #printa do índice 0 até o índice 3, a cada 2(step)
         print(lista[::-1]) #printa do ínicio ao fim, iniciando pelo fim (espelha a string)
 
-#Utilizando for
+#Iterar utilizando for
     carros = ["Gol","Celta","Palio"]
     if selecionar == 4:
+
         for carro in carros:
             print(carro)
 
-#Enumerate
+#Iterar utilizando Enumerate
     if selecionar == 5:
         for indice, carro in enumerate(carros):
             print(f"{indice}: {carro}")
@@ -69,3 +74,5 @@ while True:
         print(pares)
         print(quadrado)
 
+    if selecionar == 8:
+        print("Append, Clear, Copy, Count, Extend, index, Pop, Remove, Reverse, Sort, Sorted")
