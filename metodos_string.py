@@ -44,4 +44,3 @@ while True:
         5- MultiplasLinhas
         """
         )
-        
