@@ -5,15 +5,15 @@ while True: #conjunto não-ordenado de pares de chave:valor, onde as chaves são
         break
 
     if selecionar == 1:
-        pessoa = {"nome": "Pudha", "idade": 28} #método 1 -> nome=chave, guilherme=valor
+        pessoa = {"nome": "Pudha", "idade": 28} #método 1 -> nome=chave, Pudha=valor
         print(pessoa)
-        pessoa = dict(nome="Pudha", idade = 28) #método 2 -> nome=chave, guilherme=valor
+        pessoa = dict(nome="Pudha", idade = 28) #método 2 -> nome=chave, Pudha=valor
         print(pessoa)
         pessoa["telefone"] = "3333-1234" #adicionando nova chave e valor
         print(pessoa)
     
     if selecionar == 2:
-        pessoa = {"nome": "Pudha", "idade": 28} #método 1 -> nome=chave, guilherme=valor
+        pessoa = {"nome": "Pudha", "idade": 28} #método 1 -> nome=chave, Pudha=valor
         print(pessoa)
         print(pessoa["nome"])
         print(pessoa["idade"])
@@ -107,7 +107,7 @@ while True: #conjunto não-ordenado de pares de chave:valor, onde as chaves são
 
 #setdefault
             if selecionar2 == 9:
-                print("\nsetdefault") #se o valor não existir no dicionário, adiciona, se já existir, retorna o que existe
+                print("\nsetdefault") #se a chave-valor não existir no dicionário, adiciona, se já existir, retorna o que existe
                 print(contatos)
                 contatos.setdefault("nome", "Lemin")
                 print(contatos)
