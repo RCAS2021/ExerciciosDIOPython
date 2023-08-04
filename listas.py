@@ -47,7 +47,6 @@ while True:
 #Iterar utilizando for
     carros = ["Gol","Celta","Palio"]
     if selecionar == 4:
-
         for carro in carros:
             print(carro)
 
